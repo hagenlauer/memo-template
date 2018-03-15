@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memo
+% LaTeX Template
+% Version 1.1 (03/15/18)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rob Oakes (http://www.oak-tree.us) with modifications by:
+% Vel (vel@latextemplates.com),
+% Hagen Lauer (hagen.lauer@gmail.com)
+%
+% Licencse: MIT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[A4,12pt]{acmemo} % Set the paper size (letterpaper, a4paper, etc) and font size (10pt, 11pt or 12pt)
+\usepackage{lipsum} % for dummy text only
+
+% \usepackage{parskip}  % Adds spacing between paragraphs
+\setlength{\parindent}{40pt} % Indent paragraphs
+
+% \usepackage{palatino}  % classic font
+\usepackage{libertine} % default ACM font. 
+\usepackage{libertinust1math}
+% \renewcommand{\rmdefault}{ptm}  % Times as used by IEEE, Helvetica for sf,
+% Courier for tt
+
+\usepackage[T1]{fontenc}
+
+\usepackage[normalem]{ulem}
+
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{ }
+
+\usepackage{svg}
+
+%-----------------------------------------------------------------------------
+%	MEMO INFORMATION
+%-----------------------------------------------------------------------------
+\memoto{Recipient(s)} % Recipient(s)
+
+\memofrom{Sender(s)} % Sender(s)
+
+\memosubject{Subject} % Memo subject
+
+\memodate{\oldstylenums{\today}} % Date, set to \today for automatically printing todays date
+
+\logo{\includegraphics[width=0.15\textwidth]{logo.pdf}} % Institution logo at the top right of the memo, comment out this line for no logo 
+
+%-----------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the memo header information
+
+%-----------------------------------------------------------------------------
+%	MEMO CONTENT
+%-----------------------------------------------------------------------------
+
+\lipsum
+
+%-----------------------------------------------------------------------------
+%	END MEMO CONTENT
+%-----------------------------------------------------------------------------
+\bigskip
+\noindent
+*
+\begin{center} * \end{center}
+\hfill *\\
+\noindent
+Sincerely,
+
+
+\bigskip
+The Author(s)
+%-----------------------------------------------------------------------------
+\end{document}
