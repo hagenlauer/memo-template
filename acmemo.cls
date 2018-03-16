@@ -56,7 +56,7 @@
 
 % Set the Paper Size and margins
 \RequirePackage{geometry}
-\geometry{margin=1.0in}
+\geometry{margin=.5in}
 
 % Create the Letterhead and To/From Block
 
@@ -66,16 +66,16 @@
 	{ % Create With Logo
 	\begin{minipage}[t]{1\columnwidth}%
 		\begin{flushright}
-			\vspace{-0.7in}  % distance to top
+			\vspace{.0in}  % distance to top
 			\@memologo
-			\vspace{-10in}  % distance to following text
+                        \hspace{.5in}
+			\vspace{-2in}  % distance to following text
 		\par\end{flushright}%
 	\end{minipage}
 	}
 	{\begin{center}
             \large
             \textbf{\sffamily
-            %\sf
             Memorandum}
 	\end{center}}
 	% To, From, Subject Block
